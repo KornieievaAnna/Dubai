@@ -1,0 +1,105 @@
+.hero {
+  padding: 40px 20px 0px 413px;
+  background-image: url(/src/images/header-descktop@2x.jpg);
+  max-width: 2000px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.hero-social-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+.social-list__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.hero-case {
+  position: relative;
+  width: 742px;
+  height: 383px;
+  margin-bottom: 160px;
+}
+
+.hero-case__border {
+  border-top: 2px solid #fcd54c;
+  border-left: 2px solid #fcd54c;
+  border-bottom: 2px solid #fcd54c;
+  width: 124px;
+  height: 383px;
+}
+
+.hero-case__text {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  display: inline-block;
+  margin: 0px;
+  width: 714px;
+}
+
+.hero-case__sign {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-case__hello {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.hero-case__button {
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 171px;
+}
+
+.advantages-list__box {
+  display: flex;
+  align-items: center;
+}
+
+.advantages-list__title {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 24px;
+  margin-right: 37px;
+  background-color: #272727;
+}
+
+.advantages-list__text {
+  width: 123px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #ffffff;
+}

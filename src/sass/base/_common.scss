@@ -45,7 +45,9 @@ input {
 body {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
+  background-color: #272727;
   letter-spacing: 0.04em;
+  color: #fff;
 }
 
 // main {
@@ -59,8 +61,8 @@ body {
 
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 @media screen and (min-width: 320px) {
@@ -68,23 +70,23 @@ body {
     width: 480px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 36px;
+    padding-right: 36px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 1920px;
   }
 }
